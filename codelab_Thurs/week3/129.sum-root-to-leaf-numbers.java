@@ -27,7 +27,8 @@ public class Solution {
 	prevSum = prevSum * 10 + cur.val;
 	return helper(cur.left, prevSum) + helper(cur.right, prevSum);	
     }
-    
+
+    public static main() {}
     public int sumNumbers(TreeNode root) {
 	Deque<TreeNode> stack =  new ArrayDeque<>();
 	if (root == null) return 0;
