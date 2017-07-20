@@ -1,0 +1,22 @@
+Codelab June 14 
+35 
+找first position BS
+
+####Binary Search Pattern
+
+while(start + 1 < end) {
+	
+	if() {
+		start = mid;
+
+	}else {
+		end  = mid;
+	}
+}
+
+
+. . . . . . . . . . .
+	start end
+
+then check whether start or end is the answer
+
